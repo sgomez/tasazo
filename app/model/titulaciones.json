@@ -1,0 +1,17 @@
+{
+    "Andalucía": [
+        { "nivel": 1, "nombre": "Filologías" },
+        { "nivel": 1, "nombre": "Humanidades" },
+        { "nivel": 1, "nombre": "Historia" },
+        { "nivel": 1, "nombre": "Juridicas" },
+        { "nivel": 1, "nombre": "Economico-Empresariales" },
+        { "nivel": 2, "nombre": "Bellas Artes" },
+        { "nivel": 2, "nombre": "Geografía" },
+        { "nivel": 2, "nombre": "Matemáticas" },
+        { "nivel": 2, "nombre": "Ciencias de la Educación" },
+        { "nivel": 3, "nombre": "Arquitectura" },
+        { "nivel": 3, "nombre": "Ingeniería" },
+        { "nivel": 4, "nombre": "Ciencias Experimentales" },
+        { "nivel": 5, "nombre": "Ciencias de la Salud" }
+    ]
+}

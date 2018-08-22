@@ -1,0 +1,41 @@
+<legend>Créditos por matrícula</legend>
+<div class="form-group">
+	<label for="inputPassword3" class="col-xs-4 col-sm-3 control-label">Primera</label>
+	<div class="col-xs-6 col-sm-6 input-group">
+		<input type="number" id="input" class="form-control" pattern="[0-9,.]+" required
+					 min="0" max="90"
+					 ng-model="creditos.values[0]"
+					 ng-change="calc.updateChart()" />
+		<span class="input-group-addon">créditos</span>
+	</div>
+</div>
+<div class="form-group">
+	<label for="inputPassword3" class="col-xs-4 col-sm-3 control-label">Segunda</label>
+	<div class="col-xs-6 col-sm-6 input-group">
+		<input type="number" id="input" class="form-control" pattern="[0-9,.]+" required
+					 min="0" max="90"
+					 ng-model="creditos.values[1]"
+					 ng-change="calc.updateChart()" />
+		<span class="input-group-addon">créditos</span>
+	</div>
+</div>
+<div class="form-group">
+	<label for="inputPassword3" class="col-xs-4 col-sm-3 control-label">Tercera</label>
+	<div class="col-xs-6 col-sm-6 input-group">
+		<input type="number" id="input" class="form-control" pattern="[0-9,.]+" required
+						 min="0" max="90"
+						 ng-model="creditos.values[2]"
+						 ng-change="calc.updateChart()" />
+		<span class="input-group-addon">créditos</span>
+	</div>
+</div>
+<div class="form-group">
+	<label for="inputPassword3" class="col-xs-4 col-sm-3 control-label">Cuarta</label>
+	<div class="col-xs-6 col-sm-6 input-group">
+			<input type="number" id="input" class="form-control" pattern="[0-9,.]+" required
+						 min="0" max="90"
+						 ng-model="creditos.values[3]"
+						 ng-change="calc.updateChart()" />
+			<span class="input-group-addon">créditos</span>
+	</div>
+</div>
